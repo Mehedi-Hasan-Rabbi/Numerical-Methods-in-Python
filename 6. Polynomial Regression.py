@@ -73,8 +73,6 @@ for row in range(n+1):
 
 a = linalg.solve(A, B)
 
-print(a)
-
 
 print("The polynomial equation :")
 print('y = %f' % a[0], end=' ')
